@@ -2,9 +2,240 @@
 <html lang="es">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Gorka Leguina | Página Personal</title>
+    <title>{{el titulo}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <p>Blog Template</p>
+    <div class="outer-container">
+      <header class="site-header">
+        <div class="top-header-bar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 flex align-items-center">
+                <div class="header-bar-text d-none d-lg-block">
+                  <p>Gracias por leer este artículo.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 flex justify-content-between justify-content-lg-end align-items-center">
+                <div class="header-bar-social d-none d-md-block">
+                  <ul class="flex align-items-center">
+                    <li><a href="https://youtube.com/c/gorkaleguina"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://instagram.com/gorkaleguina"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/gorka.leguina"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/gorkaleguina"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/weissr"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gorkaleguina"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="site-branding flex flex-column align-items-center">
+                <h1 class="site-title"><a href="/" rel="home">Gorka</a></h1>
+                <p class="site-description">Dr. Leguina Jr.</p>
+              </div>
+              <nav class="site-navigation">
+                <div class="hamburger-menu d-lg-none">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <ul class="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
+                  <li class="current-menu-item"><a href="#">Home</a></li>
+                  <li><a href="https://youtube.com/c/gorkaleguina">YouTube</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Sobre Mí</a></li>
+                </ul>
+                <div class="header-bar-social d-md-none">
+                  <ul class="flex justify-content-center align-items-center">
+                    <li><a href="https://youtube.com/c/gorkaleguina"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://instagram.com/gorkaleguina"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/gorka.leguina"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/gorkaleguina"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/weissr"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gorkaleguina"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+                <div class="header-bar-search d-md-none"></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container single-page">
+        <div class="row">
+          <div class="col-12">
+            <!-- articulo -->
+            <div class="content-wrap">
+              <header class="entry-header">
+                <div class="posted-date">
+                  {{fecha}}
+                </div>
+                <h2 class="entry-title">{{titulo articulo}}</h2>
+                <div class="tags-links">
+                  <a href="#">#{{los tags}}</a>
+                </div>
+              </header>
+              <figure class="featured-image">
+                <img src="../img/last_yt_1.jpg" alt="">
+              </figure>
+              <div class="entry-content">
+                <p>{{el contenidos}}</p>
+              </div>
+              <footer class="entry-footer flex flex-column flex-lg-row justify-content-between align-content-start align-lg-items-center">
+                <a class="read-more order-2" href="https://youtu.be/mLLo2OQm8oA">Ver artículo</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="sit-footer">
+      <div class="outer-container">
+        <div class="container-fluid">
+          <div class="row footer-recent-posts">
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="footer-post-wrap flex justify-content-between">
+                <figure>
+                  <a href="https://www.instagram.com/p/CKzBe9Nokca/"><img src="../img/foot-1.jpg" alt=""></a>
+                </figure>
+                <div class="footer-post-cont flex flex-column justify-content-between">
+                  <header class="entry-header">
+                    <div class="posted-date">
+                      2 Febrero 2021
+                    </div>
+                    <h3><a href="https://www.instagram.com/p/CKzBe9Nokca/">Reel Wee</a></h3>
+                    <div class="tags-links">
+                      <a href="#">#esqui</a>
+                      <a href="#">#montaña</a>
+                      <a href="#">#invierno</a>
+                      <a href="#">#japon</a>
+                    </div>
+                  </header>
+                  <footer class="entry-footer">
+                    <a class="read-more" href="https://www.instagram.com/p/CKzBe9Nokca/">ver</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="footer-post-wrap flex justify-content-between">
+                <figure>
+                  <a href="https://www.instagram.com/p/CKWHJlNI1VT/"><img src="../img/foot-2.jpg" alt=""></a>
+                </figure>
+                <div class="footer-post-cont flex flex-column justify-content-between">
+                  <header class="entry-header">
+                    <div class="posted-date">
+                      22 Enero 2021
+                    </div>
+                    <h3><a href="https://www.instagram.com/p/CKWHJlNI1VT/">Reel Nike Pegasus 37</a></h3>
+                    <div class="tags-links">
+                      <a href="#">#run</a>
+                      <a href="#">#running</a>
+                      <a href="#">#cantabria</a>
+                      <a href="#">#nike</a>
+                    </div>
+                  </header>
+                  <footer class="entry-footer">
+                    <a class="read-more" href="https://www.instagram.com/p/CKWHJlNI1VT/">ver</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="footer-post-wrap flex justify-content-between">
+                <figure>
+                  <a href="https://www.instagram.com/p/CJ1Tzq7o9a3/"><img src="../img/foot-3.jpg" alt=""></a>
+                </figure>
+                <div class="footer-post-cont flex flex-column justify-content-between">
+                  <header class="entry-header">
+                    <div class="posted-date">
+                      9 Enero 2021
+                    </div>
+                    <h3><a href="https://www.instagram.com/p/CJ1Tzq7o9a3/">Reel Madrid Filomena</a></h3>
+                    <div class="tags-links">
+                      <a href="#">#esqui</a>
+                      <a href="#">#travesia</a>
+                      <a href="#">#invierno</a>
+                      <a href="#">#madrid</a>
+                    </div>
+                  </header>
+                  <footer class="entry-footer">
+                    <a class="read-more" href="https://www.instagram.com/p/CJ1Tzq7o9a3/">ver</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="footer-post-wrap flex justify-content-between">
+                <figure>
+                  <a href="https://www.instagram.com/p/CJ0OcrHIbUP/"><img src="../img/foot-4.jpg" alt=""></a>
+                </figure>
+                <div class="footer-post-cont flex flex-column justify-content-between">
+                  <header class="entry-header">
+                    <div class="posted-date">
+                      9 Enero 2021
+                    </div>
+                    <h3><a href="https://www.instagram.com/p/CJ0OcrHIbUP/">Reel Ski Madrid Capital</a></h3>
+                    <div class="tags-links">
+                      <a href="#">#esqui</a>
+                      <a href="#">#travesia</a>
+                      <a href="#">#invierno</a>
+                      <a href="#">#madrid</a>
+                    </div>
+                  </header>
+                  <footer class="entry-footer">
+                    <a class="read-more" href="https://www.instagram.com/p/CJ0OcrHIbUP/">ver</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="footer-instagram flex flex-wrap flex-lg-nowrap">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <div class="outer-container">
+          <div class="container-fluid">
+            <div class="row justify-content-between">
+              <div class="col-12 col-md-6">
+                <div class="footer-copyright">
+                  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0;vertical-align: middle;" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="footer-social">
+                  <ul class="flex justify-content-center justify-content-md-end align-items-center">
+                    <li><a href="https://youtube.com/c/gorkaleguina"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://instagram.com/gorkaleguina"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/gorka.leguina"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/gorkaleguina"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/weissr"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gorkaleguina"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/swiper.min.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
   </body>
 </html>

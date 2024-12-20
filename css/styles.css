@@ -66,6 +66,10 @@ footer{
 .link:hover{
   opacity: 0.9;
 }
+.link.siroko{
+  background-color: black;
+  color: #f1f3f5;
+}
 .fab{
   margin: 0 0;
   color: black;

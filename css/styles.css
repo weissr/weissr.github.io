@@ -50,6 +50,12 @@ footer{
   color: white;
   font-family: 'Bebas Neue', cursive;
 }
+.title{
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue';
+  margin-top: 30px;
+}
 .link{
   text-align: center;
   height: 70px;
@@ -65,10 +71,6 @@ footer{
 }
 .link:hover{
   opacity: 0.9;
-}
-.link.siroko{
-  background-color: black;
-  color: #f1f3f5;
 }
 .fab{
   margin: 0 0;

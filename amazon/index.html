@@ -12,8 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Bebas+Neue&family=Seymour+One&family=Yomogi&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="lib/fontawesome/css/fontawesome.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="lib/fontawesome/css/brands.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,6 +26,20 @@
       padding: 20px;
       background: #fff;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .home-button {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      padding: 10px 15px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .home-button:hover {
+      background: #555;
     }
     main {
       max-width: 1200px;
@@ -82,6 +95,7 @@
     <h1>Complementos en Amazon</h1>
     <p>Aquí encontrarás todos los complementos de <bold>esquí</bold> y <bold>trail running</bold> que he ido probando.</p>
   </header>
+  <a href="/index.html" class="home-button">Volver a la Home</a>
   <main>
     <section class="product-grid">
       <div class="product">

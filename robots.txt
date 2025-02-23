@@ -1,3 +1,3 @@
 User-agent: *
-Disallow:
+Disallow: /_testing/
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

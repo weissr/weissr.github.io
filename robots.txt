@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /_testing/
+Disallow: /portfolio/
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

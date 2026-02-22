@@ -25,15 +25,19 @@
                 </div>
             </div>
             <nav class="topbar-nav">
-                <a href="#quien-soy">Qui&eacute;n soy</a>
-                <a href="#marcas">Marcas</a>
-                <a href="#numeros">N&uacute;meros</a>
+                <a href="#quien-soy" data-i18n="nav_about">Qui&eacute;n soy</a>
+                <a href="#marcas" data-i18n="nav_brands">Marcas</a>
+                <a href="#numeros" data-i18n="nav_numbers">N&uacute;meros</a>
                 <a href="#instagram">Instagram</a>
                 <a href="#youtube">YouTube</a>
                 <a href="#portfolio">Portfolio</a>
-                <a href="#colaborar">Colaborar</a>
+                <a href="#colaborar" data-i18n="nav_collab">Colaborar</a>
             </nav>
-            <a href="#contacto" class="topbar-cta">Contacto</a>
+            <div class="lang-switch">
+                <button class="lang-btn active" data-lang="es" title="Espa&ntilde;ol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#AA151B" d="M0 0h512v512H0z"/><path fill="#F1BF00" d="M0 128h512v256H0z"/></svg></button>
+                <button class="lang-btn" data-lang="en" title="English"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#012169" d="M0 0h512v512H0z"/><path fill="#FFF" d="M512 0v64L322 256l190 187v69h-67L254 324 68 512H0v-68l186-187L0 74V0h62l192 188L446 0z"/><path fill="#C8102E" d="M184 324l11 34L42 512H0v-3l184-185zm124-12l54 8 150 147v45L308 312zM512 0L320 196l-4-44L466 0h46zM0 1l193 189-59-8L0 49V1z"/><path fill="#FFF" d="M176 0v512h160V0H176zM0 176v160h512V176H0z"/><path fill="#C8102E" d="M0 208v96h512v-96H0zM208 0v512h96V0h-96z"/></svg></button>
+            </div>
+            <a href="#contacto" class="topbar-cta" data-i18n="nav_cta">Contacto</a>
         </div>
     </header>
 
@@ -48,12 +52,12 @@
             <div class="section-header">
                 <span class="section-label">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
-                    Sobre m&iacute;
+                    <span data-i18n="s1_label">Sobre m&iacute;</span>
                 </span>
-                <h2>Qui&eacute;n soy</h2>
+                <h2 data-i18n="s1_title">Qui&eacute;n soy</h2>
             </div>
-            <p class="about-greeting">&ldquo;Hola, soy Gorka Leguina&hellip;&rdquo;</p>
-            <p class="about-text">
+            <p class="about-greeting" data-i18n="s1_greeting">&ldquo;Hola, soy Gorka Leguina&hellip;&rdquo;</p>
+            <p class="about-text" data-i18n="s1_text">
                 Creador de contenido en espa&ntilde;ol residente en Dinamarca especializado en deportes de monta&ntilde;a.
                 Produzco contenido t&eacute;cnico y cultural viajando por el mundo, conectando dos comunidades:
                 esquiadores y trail runners, que aman la monta&ntilde;a.
@@ -66,35 +70,35 @@
             <div class="section-header">
                 <span class="section-label">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"/></svg>
-                    Propuesta de valor
+                    <span data-i18n="s2_label">Propuesta de valor</span>
                 </span>
-                <h2>Por qu&eacute; marcas trabajan conmigo</h2>
+                <h2 data-i18n="s2_title">Por qu&eacute; marcas trabajan conmigo</h2>
             </div>
             <div class="why-cards">
                 <div class="why-card">
                     <svg class="why-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm245.1 0H493.4c-29.9 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6z"/></svg>
-                    <h3>Acceso geogr&aacute;fico &uacute;nico</h3>
-                    <p>Resido en Escandinavia y viajo frecuentemente, esquiando y corriendo por todo el mundo. Cobertura internacional real.</p>
+                    <h3 data-i18n="s2_c1_t">Acceso geogr&aacute;fico &uacute;nico</h3>
+                    <p data-i18n="s2_c1_p">Resido en Escandinavia y viajo frecuentemente, esquiando y corriendo por todo el mundo. Cobertura internacional real.</p>
                 </div>
                 <div class="why-card">
                     <svg class="why-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
-                    <h3>Nicho dual de monta&ntilde;a</h3>
-                    <p>Audiencia de esqu&iacute; + trail running = mayor alcance para las marcas en un p&uacute;blico apasionado por la monta&ntilde;a.</p>
+                    <h3 data-i18n="s2_c2_t">Nicho dual de monta&ntilde;a</h3>
+                    <p data-i18n="s2_c2_p">Audiencia de esqu&iacute; + trail running = mayor alcance para las marcas en un p&uacute;blico apasionado por la monta&ntilde;a.</p>
                 </div>
                 <div class="why-card">
                     <svg class="why-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
-                    <h3>Contenido educativo</h3>
-                    <p>Tutoriales t&eacute;cnicos y uso de material espec&iacute;fico generan guardados y compartidos altos &rarr; engagement sostenible.</p>
+                    <h3 data-i18n="s2_c3_t">Contenido educativo</h3>
+                    <p data-i18n="s2_c3_p">Tutoriales t&eacute;cnicos y uso de material espec&iacute;fico generan guardados y compartidos altos &rarr; engagement sostenible.</p>
                 </div>
                 <div class="why-card">
                     <svg class="why-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7.7-21.2 13.5-35.7c-5.8-.5-11.6-1-17.3-1.5c-12.2-1-24.1-2.1-34.9-3.2c-17.5-1.8-30.2-17-28.4-34.5s17-30.2 34.5-28.4c10.8 1.1 22.7 2.2 34.9 3.2c9.5 .8 19.1 1.6 28.6 2.3c-4.7-10.8-8.4-20.5-10.7-28.4c-3.8-13.2-.7-27.4 9.9-36.5c11.4-9.8 28.4-10.2 40.2-.9c8.8 7 18.7 16.2 29.1 26.6l.6 .6c7.5-14.6 15.6-28.4 23.8-40.7C197 113.7 208.8 96.5 220 82.3c9.4-11.9 26.6-14.1 38.6-4.7s14.1 26.6 4.7 38.6c-8.5 10.7-18.1 24-27.8 38.7c12.3-3.5 24.7-6.2 36.8-7.8c16.1-2.2 31 8.9 33.3 25s-8.9 31-25 33.3c-14.1 1.9-28.4 5.4-42 10c11.3 7.5 22 15.7 31.6 24.2c11.4 10 12.5 27.3 2.5 38.7s-27.3 12.5-38.7 2.5c-7.5-6.6-16-13.1-25.1-19c5.7 14 10.2 27.4 13 38.6c3.6 14.2-3.2 29-16.5 34.8s-28.4-.5-34.8-14c-4.8-10.1-11.3-22.3-19-35.3c-7.2 11.2-13.8 23-19.4 34.8c-7 14.8-24.2 21.2-39 14.2s-21.2-24.2-14.2-39c2.1-4.4 4.3-9 6.7-13.7c-4.5 .6-8.8 1-12.8 1.3c-16 1-30.4-10.8-31.8-27.2z"/></svg>
-                    <h3>Crecimiento acelerado</h3>
-                    <p>+233% (3K &rarr; 10K) en 12 meses, momentum actual fuerte.</p>
+                    <h3 data-i18n="s2_c4_t">Crecimiento acelerado</h3>
+                    <p data-i18n="s2_c4_p">+233% (3K &rarr; 10K) en 12 meses, momentum actual fuerte.</p>
                 </div>
                 <div class="why-card">
                     <svg class="why-card-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-                    <h3>Autenticidad cultural</h3>
-                    <p>Vlogs Jap&oacute;n y otros destinos con enfoque real, no tur&iacute;stico superficial. Contenido genuino que conecta.</p>
+                    <h3 data-i18n="s2_c5_t">Autenticidad cultural</h3>
+                    <p data-i18n="s2_c5_p">Vlogs Jap&oacute;n y otros destinos con enfoque real, no tur&iacute;stico superficial. Contenido genuino que conecta.</p>
                 </div>
             </div>
         </section>
@@ -104,60 +108,60 @@
             <div class="section-header">
                 <span class="section-label">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M160 80c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-352zM0 272c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 272zM320 144c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-288z"/></svg>
-                    M&eacute;tricas
+                    <span data-i18n="s3_label">M&eacute;tricas</span>
                 </span>
-                <h2>N&uacute;meros Actuales &amp; Trayectoria</h2>
+                <h2 data-i18n="s3_title">N&uacute;meros Actuales &amp; Trayectoria</h2>
             </div>
             <div class="stats-table-wrap">
                 <table class="stats-table">
                     <thead>
                         <tr>
-                            <th>Plataforma</th>
-                            <th>Seguidores / Suscriptores</th>
+                            <th data-i18n="s3_th1">Plataforma</th>
+                            <th data-i18n="s3_th2">Seguidores / Suscriptores</th>
                             <th>Engagement Rate</th>
-                            <th>Tendencia de crecimiento</th>
+                            <th data-i18n="s3_th4">Tendencia de crecimiento</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Instagram</strong> (principal)</td>
+                            <td data-i18n="s3_ig_name"><strong>Instagram</strong> (principal)</td>
                             <td>10.500+</td>
                             <td>8,2% (top)</td>
-                            <td>+233% (12 meses)</td>
+                            <td data-i18n="s3_ig_grow">+233% (12 meses)</td>
                         </tr>
                         <tr>
                             <td><strong>YouTube</strong></td>
                             <td>2.170+</td>
-                            <td>Views destacadas: 75K+ (tutorial), 45K (t&eacute;cnica)</td>
-                            <td>Canal establecido 6+ a&ntilde;os</td>
+                            <td data-i18n="s3_yt_er">Views destacadas: 75K+ (tutorial), 45K (t&eacute;cnica)</td>
+                            <td data-i18n="s3_yt_grow">Canal establecido 6+ a&ntilde;os</td>
                         </tr>
                         <tr>
                             <td><strong>TikTok</strong></td>
-                            <td>Cuenta activa</td>
-                            <td>En crecimiento</td>
-                            <td>Contenido multiplataforma</td>
+                            <td data-i18n="s3_tk_foll">Cuenta activa</td>
+                            <td data-i18n="s3_tk_er">En crecimiento</td>
+                            <td data-i18n="s3_tk_grow">Contenido multiplataforma</td>
                         </tr>
                         <tr>
                             <td><strong>Facebook</strong></td>
-                            <td>Audiencia legacy</td>
-                            <td>Comunidad Espa&ntilde;a/Europa</td>
-                            <td>Base fiel</td>
+                            <td data-i18n="s3_fb_foll">Audiencia legacy</td>
+                            <td data-i18n="s3_fb_er">Comunidad Espa&ntilde;a/Europa</td>
+                            <td data-i18n="s3_fb_grow">Base fiel</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="stats-highlight">
                 <div class="highlight-card">
-                    <h3>Alcance total combinado</h3>
-                    <p>12K+ multiplataforma</p>
+                    <h3 data-i18n="s3_h1_t">Alcance total combinado</h3>
+                    <p data-i18n="s3_h1_p">12K+ multiplataforma</p>
                 </div>
                 <div class="highlight-card">
-                    <h3>Interacci&oacute;n &gt; Seguidores</h3>
-                    <p>Los tutoriales generan muchos guardados y compartidos (tasa 8%+)</p>
+                    <h3 data-i18n="s3_h2_t">Interacci&oacute;n &gt; Seguidores</h3>
+                    <p data-i18n="s3_h2_p">Los tutoriales generan muchos guardados y compartidos (tasa 8%+)</p>
                 </div>
                 <div class="highlight-card">
-                    <h3>Las visualizaciones superan los suscriptores</h3>
-                    <p>Tutorial limpieza esqu&iacute;s: 75K visualizaciones con solo 2,1K suscriptores = contenido buscable con SEO fuerte</p>
+                    <h3 data-i18n="s3_h3_t">Las visualizaciones superan los suscriptores</h3>
+                    <p data-i18n="s3_h3_p">Tutorial limpieza esqu&iacute;s: 75K visualizaciones con solo 2,1K suscriptores = contenido buscable con SEO fuerte</p>
                 </div>
             </div>
         </section>
@@ -167,9 +171,9 @@
             <div class="section-header">
                 <span class="section-label section-label--light">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                    Instagram
+                    <span data-i18n="s4_label">Instagram</span>
                 </span>
-                <h2>&Uacute;ltimos 90 d&iacute;as</h2>
+                <h2 data-i18n="s4_title">&Uacute;ltimos 90 d&iacute;as</h2>
             </div>
             <div class="stats-grid">
                 <div class="stats-grid-item"><img src="img/ig-insights-cuenta.png" alt="Insights de cuenta Instagram" loading="lazy"></div>
@@ -186,9 +190,9 @@
             <div class="section-header">
                 <span class="section-label section-label--light">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
-                    YouTube
+                    <span data-i18n="s5_label">YouTube</span>
                 </span>
-                <h2>Estad&iacute;sticas desde 2017</h2>
+                <h2 data-i18n="s5_title">Estad&iacute;sticas desde 2017</h2>
             </div>
             <div class="stats-grid">
                 <div class="stats-grid-item"><img src="img/yt-vistas-totales.png" alt="Vistas totales YouTube" loading="lazy"></div>
@@ -207,111 +211,111 @@
             <div class="section-header">
                 <span class="section-label">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64l256 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L430.2 346l0-180 .1 .1 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
-                    Contenido
+                    <span data-i18n="s6_label">Contenido</span>
                 </span>
-                <h2>Portfolio de Contenido</h2>
+                <h2 data-i18n="s6_title">Portfolio de Contenido</h2>
             </div>
 
             <h3 class="subsection-title subsection-title--ig">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                Instagram Top Performing Content
+                <span data-i18n="s6_ig_sub">Instagram Top Performing Content</span>
             </h3>
             <div class="top-content-cards">
                 <div class="top-card">
                     <img class="top-card-thumb" src="img/thumb-reel-1.png" alt="Curiosidades Japow #8" loading="lazy">
                     <div class="top-card-body">
-                        <div class="top-card-format">Instagram Reel</div>
+                        <div class="top-card-format" data-i18n="s6_ig1_fmt">Instagram Reel</div>
                         <div class="top-card-title">Curiosidades Japow #8</div>
-                        <div class="top-card-metrics">1,1M visualizaciones &middot; Engagement alto</div>
-                        <div class="top-card-why">Contenido inmersivo y cultural con enfoque aut&eacute;ntico sobre Jap&oacute;n.</div>
+                        <div class="top-card-metrics" data-i18n="s6_ig1_met">1,1M visualizaciones &middot; Engagement alto</div>
+                        <div class="top-card-why" data-i18n="s6_ig1_why">Contenido inmersivo y cultural con enfoque aut&eacute;ntico sobre Jap&oacute;n.</div>
                     </div>
                 </div>
                 <div class="top-card">
                     <img class="top-card-thumb" src="img/thumb-reel-2.png" alt="Elige tu bota de esqu&iacute;" loading="lazy">
                     <div class="top-card-body">
-                        <div class="top-card-format">Instagram Reel</div>
-                        <div class="top-card-title">Elige tu bota de esqu&iacute;</div>
-                        <div class="top-card-metrics">250,9K visualizaciones y gran interacci&oacute;n</div>
-                        <div class="top-card-why">Contenido educativo de varios productos que la audiencia guarda y comparte.</div>
+                        <div class="top-card-format" data-i18n="s6_ig2_fmt">Instagram Reel</div>
+                        <div class="top-card-title" data-i18n="s6_ig2_tit">Elige tu bota de esqu&iacute;</div>
+                        <div class="top-card-metrics" data-i18n="s6_ig2_met">250,9K visualizaciones y gran interacci&oacute;n</div>
+                        <div class="top-card-why" data-i18n="s6_ig2_why">Contenido educativo de varios productos que la audiencia guarda y comparte.</div>
                     </div>
                 </div>
                 <div class="top-card">
                     <img class="top-card-thumb" src="img/thumb-reel-3.png" alt="&iquest;Hablas Runner?" loading="lazy">
                     <div class="top-card-body">
-                        <div class="top-card-format">Instagram Carrusel</div>
-                        <div class="top-card-title">&iquest;Hablas Runner?</div>
-                        <div class="top-card-metrics">1M visualizaciones &middot; 700 seguidores nuevos</div>
-                        <div class="top-card-why">Divertido, contenido realista que conecta. Potencial de inserci&oacute;n de marca.</div>
+                        <div class="top-card-format" data-i18n="s6_ig3_fmt">Instagram Carrusel</div>
+                        <div class="top-card-title" data-i18n="s6_ig3_tit">&iquest;Hablas Runner?</div>
+                        <div class="top-card-metrics" data-i18n="s6_ig3_met">1M visualizaciones &middot; 700 seguidores nuevos</div>
+                        <div class="top-card-why" data-i18n="s6_ig3_why">Divertido, contenido realista que conecta. Potencial de inserci&oacute;n de marca.</div>
                     </div>
                 </div>
             </div>
 
             <h3 class="subsection-title subsection-title--yt">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
-                YouTube Top Performing Content
+                <span data-i18n="s6_yt_sub">YouTube Top Performing Content</span>
             </h3>
             <div class="top-content-cards top-content-cards--wide">
                 <div class="top-card">
                     <img class="top-card-thumb" src="img/thumb-youtube-1.png" alt="C&oacute;mo VESTIR para la NIEVE" loading="lazy">
                     <div class="top-card-body">
                         <div class="top-card-format">YouTube Video</div>
-                        <div class="top-card-title">C&oacute;mo VESTIR para la NIEVE y NO MORIR en el intento</div>
-                        <div class="top-card-metrics">75K+ visualizaciones (35x suscriptores)</div>
-                        <div class="top-card-why">SEO fuerte, contenido perenne. Contenido educativo con producto integrado.</div>
+                        <div class="top-card-title" data-i18n="s6_yt1_tit">C&oacute;mo VESTIR para la NIEVE y NO MORIR en el intento</div>
+                        <div class="top-card-metrics" data-i18n="s6_yt1_met">75K+ visualizaciones (35x suscriptores)</div>
+                        <div class="top-card-why" data-i18n="s6_yt1_why">SEO fuerte, contenido perenne. Contenido educativo con producto integrado.</div>
                     </div>
                 </div>
                 <div class="top-card">
                     <img class="top-card-thumb" src="img/thumb-youtube-2.png" alt="Tutorial cuidado de esqu&iacute;s" loading="lazy">
                     <div class="top-card-body">
                         <div class="top-card-format">YouTube Video</div>
-                        <div class="top-card-title">Tutorial de limpieza, reparaci&oacute;n, afilado y encerado de esqu&iacute;s</div>
-                        <div class="top-card-metrics">Contenido educativo premium con materiales espec&iacute;ficos</div>
-                        <div class="top-card-why">SEO fuerte (tutorial espec&iacute;fico mantenimiento esqu&iacute;s), 9 a&ntilde;os relevante = prueba durabilidad contenido.</div>
+                        <div class="top-card-title" data-i18n="s6_yt2_tit">Tutorial de limpieza, reparaci&oacute;n, afilado y encerado de esqu&iacute;s</div>
+                        <div class="top-card-metrics" data-i18n="s6_yt2_met">Contenido educativo premium con materiales espec&iacute;ficos</div>
+                        <div class="top-card-why" data-i18n="s6_yt2_why">SEO fuerte (tutorial espec&iacute;fico mantenimiento esqu&iacute;s), 9 a&ntilde;os relevante = prueba durabilidad contenido.</div>
                     </div>
                 </div>
             </div>
 
-            <h3 class="subsection-title">Formatos Disponibles</h3>
+            <h3 class="subsection-title" data-i18n="s6_fmt_title">Formatos Disponibles</h3>
             <div class="formats-section">
                 <table class="formats-table">
                     <thead>
                         <tr>
-                            <th>Formato</th>
-                            <th>Plataforma</th>
-                            <th>Uso Ideal</th>
-                            <th>Engagement Promedio</th>
+                            <th data-i18n="s6_fth1">Formato</th>
+                            <th data-i18n="s6_fth2">Plataforma</th>
+                            <th data-i18n="s6_fth3">Uso Ideal</th>
+                            <th data-i18n="s6_fth4">Engagement Promedio</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><strong>Reels POV 30s</strong></td>
                             <td>IG / TikTok</td>
-                            <td>Demos de producto, vlogs de viaje</td>
+                            <td data-i18n="s6_f1_use">Demos de producto, vlogs de viaje</td>
                             <td>7-9%</td>
                         </tr>
                         <tr>
-                            <td><strong>Carousels educativos</strong></td>
+                            <td data-i18n="s6_f2_name"><strong>Carousels educativos</strong></td>
                             <td>Instagram</td>
-                            <td>Tutoriales t&eacute;cnicos, tips</td>
+                            <td data-i18n="s6_f2_use">Tutoriales t&eacute;cnicos, tips</td>
                             <td>8-11%</td>
                         </tr>
                         <tr>
                             <td><strong>YouTube Shorts</strong></td>
                             <td>YouTube</td>
-                            <td>Consejos r&aacute;pidos, detr&aacute;s de c&aacute;maras</td>
-                            <td>Variable (nuevo)</td>
+                            <td data-i18n="s6_f3_use">Consejos r&aacute;pidos, detr&aacute;s de c&aacute;maras</td>
+                            <td data-i18n="s6_f3_eng">Variable (nuevo)</td>
                         </tr>
                         <tr>
-                            <td><strong>Videos largos</strong></td>
+                            <td data-i18n="s6_f4_name"><strong>Videos largos</strong></td>
                             <td>YouTube</td>
-                            <td>An&aacute;lisis en profundidad, tests de material</td>
-                            <td>75K+ visualizaciones posibles</td>
+                            <td data-i18n="s6_f4_use">An&aacute;lisis en profundidad, tests de material</td>
+                            <td data-i18n="s6_f4_eng">75K+ visualizaciones posibles</td>
                         </tr>
                         <tr>
                             <td><strong>Stories series</strong></td>
                             <td>Instagram</td>
-                            <td>D&iacute;a a d&iacute;a, preguntas y respuestas, encuestas</td>
-                            <td>2-4K visualizaciones/d&iacute;a</td>
+                            <td data-i18n="s6_f5_use">D&iacute;a a d&iacute;a, preguntas y respuestas, encuestas</td>
+                            <td data-i18n="s6_f5_eng">2-4K visualizaciones/d&iacute;a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -319,59 +323,59 @@
 
             <h3 class="subsection-title subsection-title--series">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                Series de producto: formato listo para colaborar
+                <span data-i18n="s6_series_sub">Series de producto: formato listo para colaborar</span>
             </h3>
             <div class="series-cards">
                 <div class="series-card">
                     <h4 class="series-card-title">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0c53 0 96 43 96 96l0 3.6c0 15.7-12.7 28.4-28.4 28.4l-135.1 0c-15.7 0-28.4-12.7-28.4-28.4l0-3.6c0-53 43-96 96-96zM41.4 105.4c12.5-12.5 32.8-12.5 45.3 0l64 64c.7 .7 1.3 1.4 1.9 2.1c14.2-7.3 30.1-11.5 47.4-11.5l112 0c17.3 0 33.2 4.1 47.4 11.5c.6-.7 1.2-1.4 1.9-2.1l64-64c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-64 64c-.7 .7-1.4 1.3-2.1 1.9c7.3 14.2 11.5 30.1 11.5 47.4l0 24.9c0 .1 0 .2 0 .4c-.3 36.4-14.2 72.9-42.1 100.8l-55.9 55.9C274.8 505.9 206.1 504.2 164 461l-55.9-55.9C80.2 377.2 66.4 340.7 66 304.3c0-.1 0-.2 0-.4l0-24.9c0-17.3 4.1-33.2 11.5-47.4c-.7-.6-1.4-1.2-2.1-1.9l-64-64c-12.5-12.5-12.5-32.8 0-45.3z"/></svg>
-                        Probando complementos de Esqu&iacute;
+                        <span data-i18n="s6_ser1_t">Probando complementos de Esqu&iacute;</span>
                     </h4>
                     <div class="series-card-count">~20 Reels</div>
-                    <p class="series-card-desc">An&aacute;lisis pr&aacute;cticos de gadgets y accesorios de esqu&iacute; en condiciones reales. Formato ideal para presentar productos de forma natural y demostrativa.</p>
+                    <p class="series-card-desc" data-i18n="s6_ser1_p">An&aacute;lisis pr&aacute;cticos de gadgets y accesorios de esqu&iacute; en condiciones reales. Formato ideal para presentar productos de forma natural y demostrativa.</p>
                 </div>
                 <div class="series-card">
                     <h4 class="series-card-title">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M416 0C352.3 0 256 32 256 32l0 128c48 0 76 16 104 32s56 32 104 32c56.4 0 176-16 176-96S512 0 416 0zM128 96c0 35.3-28.7 64-64 64S0 131.3 0 96 28.7 32 64 32s64 28.7 64 64zm64 256c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64zM536 384c0 35.3-28.7 64-64 64s-64-28.7-64-64 28.7-64 64-64 64 28.7 64 64zM0 480c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 32-64 32S0 515.3 0 480zm128-64c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64z"/></svg>
-                        Probando complementos de Trail
+                        <span data-i18n="s6_ser2_t">Probando complementos de Trail</span>
                     </h4>
                     <div class="series-card-count">~20 Reels</div>
-                    <p class="series-card-desc">Pruebas honestas de material de trail running: desde zapatillas hasta accesorios t&eacute;cnicos. Contenido recurrente que la audiencia espera y consume activamente.</p>
+                    <p class="series-card-desc" data-i18n="s6_ser2_p">Pruebas honestas de material de trail running: desde zapatillas hasta accesorios t&eacute;cnicos. Contenido recurrente que la audiencia espera y consume activamente.</p>
                 </div>
             </div>
-            <p class="series-callout">Formato ideal para integrar producto de forma natural. Usado en todas las nuevas colaboraciones.</p>
+            <p class="series-callout" data-i18n="s6_ser_cta">Formato ideal para integrar producto de forma natural. Usado en todas las nuevas colaboraciones.</p>
 
-            <h3 class="subsection-title">Temas de Contenido (Doble nicho)</h3>
+            <h3 class="subsection-title" data-i18n="s6_themes_title">Temas de Contenido (Doble nicho)</h3>
             <div class="themes-grid">
                 <div class="theme-col">
-                    <h4>Esqu&iacute;</h4>
-                    <div class="theme-pct">50% del contenido</div>
+                    <h4 data-i18n="s6_th1_t">Esqu&iacute;</h4>
+                    <div class="theme-pct" data-i18n="s6_th1_pct">50% del contenido</div>
                     <ul>
-                        <li>Freeride / backcountry POV</li>
-                        <li>T&eacute;cnicas espec&iacute;ficas (bastones, calentamiento, carving)</li>
-                        <li>An&aacute;lisis de material (botas, esqu&iacute;s, fijaciones, ropa)</li>
-                        <li>Destinos (España, Europa, Asia, USA)</li>
+                        <li data-i18n="s6_th1_l1">Freeride / backcountry POV</li>
+                        <li data-i18n="s6_th1_l2">T&eacute;cnicas espec&iacute;ficas (bastones, calentamiento, carving)</li>
+                        <li data-i18n="s6_th1_l3">An&aacute;lisis de material (botas, esqu&iacute;s, fijaciones, ropa)</li>
+                        <li data-i18n="s6_th1_l4">Destinos (Espa&ntilde;a, Europa, Asia, USA)</li>
                     </ul>
                 </div>
                 <div class="theme-col">
                     <h4>Trail Running</h4>
-                    <div class="theme-pct">35% del contenido</div>
+                    <div class="theme-pct" data-i18n="s6_th2_pct">35% del contenido</div>
                     <ul>
-                        <li>Rutas monta&ntilde;a Dinamarca / Espa&ntilde;a</li>
-                        <li>Material minimalista</li>
-                        <li>Consejos de entrenamiento</li>
+                        <li data-i18n="s6_th2_l1">Rutas monta&ntilde;a Dinamarca / Espa&ntilde;a</li>
+                        <li data-i18n="s6_th2_l2">Material minimalista</li>
+                        <li data-i18n="s6_th2_l3">Consejos de entrenamiento</li>
                         <li>Fit Check (conjuntos de running y novedades)</li>
-                        <li>Combinaci&oacute;n esqu&iacute;-trail (preparaci&oacute;n f&iacute;sica)</li>
+                        <li data-i18n="s6_th2_l5">Combinaci&oacute;n esqu&iacute;-trail (preparaci&oacute;n f&iacute;sica)</li>
                     </ul>
                 </div>
                 <div class="theme-col">
-                    <h4>Cultura / Viajes</h4>
-                    <div class="theme-pct">15% del contenido</div>
+                    <h4 data-i18n="s6_th3_t">Cultura / Viajes</h4>
+                    <div class="theme-pct" data-i18n="s6_th3_pct">15% del contenido</div>
                     <ul>
-                        <li>Cultura (restaurantes, costumbres)</li>
-                        <li>Log&iacute;stica viajes outdoor</li>
-                        <li>Experiencias locales</li>
-                        <li>Turismo runner</li>
+                        <li data-i18n="s6_th3_l1">Cultura (restaurantes, costumbres)</li>
+                        <li data-i18n="s6_th3_l2">Log&iacute;stica viajes outdoor</li>
+                        <li data-i18n="s6_th3_l3">Experiencias locales</li>
+                        <li data-i18n="s6_th3_l4">Turismo runner</li>
                     </ul>
                 </div>
             </div>
@@ -382,55 +386,55 @@
             <div class="section-header">
                 <span class="section-label">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M272.2 64.6l-51.1 51.1c-15.3 4.2-29.5 11.9-41.5 22.5L153 161.9C142.8 171 129.5 176 115.8 176L96 176l0 128c20.4 .6 39.8 8.9 54.3 23.4l35.6 35.6 7 7c0 0 0 0 0 0L219.9 397c6.2 6.2 16.4 6.2 22.6 0c1.7-1.7 3-3.7 3.7-5.8c2.8-7.7 9.3-13.5 17.3-15.3s16.4 .6 22.2 6.5L296.5 393c11.6 11.6 30.4 11.6 41.9 0c5.4-5.4 8.3-12.3 8.6-19.4c.4-8.8 5.2-16.6 13.1-20.8s17.2-3.9 24.7 1.2c6.6 4.5 15.7 3.5 21.2-2.1l16.3-16.3-67.5-74.1c-5.3-5.8-11.3-10.5-18.1-13.9L298.2 226c-8-4.1-17.3-4.1-25.3 0L244.7 241c-8.6 4.4-19 3.1-26.2-3.4l0 0c-10-9-11.1-24.3-2.6-34.7l64.3-78.4c5.2-6.3 12.5-10.5 20.5-11.8L343 106.4c5.5-.9 11.2-.2 16.3 2.1l34.6 15.4c4.8 2.1 10.1 2.3 15.1 .5l25.8-9.5c6.3-2.3 13.4-1.3 18.8 2.8l29.8 22.5c7.2 5.4 17.4 3.9 22.8-3.3l0 0c5.4-7.2 3.9-17.4-3.3-22.8l-29.8-22.5c-14.2-10.7-32.6-13.5-49.3-7.3l-25.8 9.5-34.6-15.4c-13.5-6-28.5-7.9-43.1-5.5L300.2 101c-21.1 3.4-39.8 14.5-53.4 31.6l-64.3 78.4c-22.3 27.2-19.5 67.3 6.4 90.8c19.4 17.5 48 19.3 69.4 5.4c-1 26 17.6 50.2 44.2 53.2c.5 10.7 4.8 21.1 13 29.3c18.7 18.7 49.1 18.7 67.9 0l16.3-16.3c6.5 1.2 13.3 .5 19.5-2.2c6.8-3 12.3-8.1 15.9-14.4c7.8 4.1 17 3.6 24.2-1.4l2.3-1.7c14.8-11 16.8-32.3 4.2-45.9L378.1 249l-9.1-10c3.5 .2 7 .3 10.5 .3L416 176l-27.8 0c-13.7 0-27-5-37.2-14.1L325.4 138c-12-11.4-26.8-19-42.7-22.1l-10.5-2z"/></svg>
-                    Colaboraciones
+                    <span data-i18n="s7_label">Colaboraciones</span>
                 </span>
-                <h2>C&oacute;mo trabajo con marcas</h2>
+                <h2 data-i18n="s7_title">C&oacute;mo trabajo con marcas</h2>
             </div>
             <div class="services-table-wrap">
                 <table class="services-table">
                     <thead>
                         <tr>
-                            <th>Servicio</th>
-                            <th>Descripci&oacute;n</th>
-                            <th>Entregables</th>
+                            <th data-i18n="s7_sth1">Servicio</th>
+                            <th data-i18n="s7_sth2">Descripci&oacute;n</th>
+                            <th data-i18n="s7_sth3">Entregables</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>An&aacute;lisis de producto</strong></td>
-                            <td>Test honesto en condiciones reales</td>
-                            <td>1 Reel + 1 Carrusel + Stories<br>2 Reels + Stories</td>
+                            <td data-i18n="s7_r1_name"><strong>An&aacute;lisis de producto</strong></td>
+                            <td data-i18n="s7_r1_desc">Test honesto en condiciones reales</td>
+                            <td data-i18n="s7_r1_del">1 Reel + 1 Carrusel + Stories<br>2 Reels + Stories</td>
                         </tr>
                         <tr>
-                            <td><strong>Viaje Sponsorizado</strong></td>
-                            <td>Cobertura destino / estaci&oacute;n esqu&iacute; o carrera trail running</td>
-                            <td>3-5 Reels + 1 v&iacute;deo YouTube + Stories diarias</td>
+                            <td data-i18n="s7_r2_name"><strong>Viaje Sponsorizado</strong></td>
+                            <td data-i18n="s7_r2_desc">Cobertura destino / estaci&oacute;n esqu&iacute; o carrera trail running</td>
+                            <td data-i18n="s7_r2_del">3-5 Reels + 1 v&iacute;deo YouTube + Stories diarias</td>
                         </tr>
                         <tr>
-                            <td><strong>Tutorial Patrocinado</strong></td>
-                            <td>Contenido educativo con producto integrado</td>
-                            <td>1 Reel o 1 Carrusel + Stories</td>
+                            <td data-i18n="s7_r3_name"><strong>Tutorial Patrocinado</strong></td>
+                            <td data-i18n="s7_r3_desc">Contenido educativo con producto integrado</td>
+                            <td data-i18n="s7_r3_del">1 Reel o 1 Carrusel + Stories</td>
                         </tr>
                         <tr>
-                            <td><strong>Embajador Temporada</strong></td>
-                            <td>Patrocinio continuado (6-12 meses)</td>
-                            <td>2 publicaciones/mes + stories semanales + 2 v&iacute;deos YouTube + menciones + bio permanente</td>
+                            <td data-i18n="s7_r4_name"><strong>Embajador Temporada</strong></td>
+                            <td data-i18n="s7_r4_desc">Patrocinio continuado (6-12 meses)</td>
+                            <td data-i18n="s7_r4_del">2 publicaciones/mes + stories semanales + 2 v&iacute;deos YouTube + menciones + bio permanente</td>
                         </tr>
                         <tr>
-                            <td><strong>Serie &ldquo;Probando complementos&rdquo;</strong></td>
-                            <td>Integraci&oacute;n en serie recurrente de an&aacute;lisis de gadgets y accesorios (esqu&iacute; o trail)</td>
-                            <td>1 Reel dedicado dentro de la serie + Stories + menci&oacute;n en historias destacadas</td>
+                            <td data-i18n="s7_r5_name"><strong>Serie &ldquo;Probando complementos&rdquo;</strong></td>
+                            <td data-i18n="s7_r5_desc">Integraci&oacute;n en serie recurrente de an&aacute;lisis de gadgets y accesorios (esqu&iacute; o trail)</td>
+                            <td data-i18n="s7_r5_del">1 Reel dedicado dentro de la serie + Stories + menci&oacute;n en historias destacadas</td>
                         </tr>
                         <tr>
-                            <td><strong>Afiliaci&oacute;n</strong></td>
-                            <td>Promoci&oacute;n productos con link/c&oacute;digo descuento &uacute;nico</td>
-                            <td><strong>An&aacute;lisis de producto</strong> + stories con promos especiales</td>
+                            <td data-i18n="s7_r6_name"><strong>Afiliaci&oacute;n</strong></td>
+                            <td data-i18n="s7_r6_desc">Promoci&oacute;n productos con link/c&oacute;digo descuento &uacute;nico</td>
+                            <td data-i18n="s7_r6_del"><strong>An&aacute;lisis de producto</strong> + stories con promos especiales</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="brands-list">
-                <h3 class="subsection-title">Marcas con las que colaboro</h3>
+                <h3 class="subsection-title" data-i18n="s7_brands_title">Marcas con las que colaboro</h3>
                 <div class="brand-tags">
                     <a class="brand-tag" href="https://siroko.com" target="_blank" rel="noopener">Siroko</a>
                     <a class="brand-tag" href="https://zoomcorp.com/es/es/instamic" target="_blank" rel="noopener">Instamic</a>
@@ -446,9 +450,9 @@
         <!-- ====== SECTION 8: Contacto ====== -->
         <section class="dark-section contact" id="contacto">
             <div class="section-header">
-                <h2>Contacto</h2>
+                <h2 data-i18n="s8_title">Contacto</h2>
             </div>
-            <p class="contact-cta">&iquest;Listo para llevar tu marca por todas las monta&ntilde;as del mundo?</p>
+            <p class="contact-cta" data-i18n="s8_cta">&iquest;Listo para llevar tu marca por todas las monta&ntilde;as del mundo?</p>
             <div class="contact-links">
                 <a class="contact-link" href="mailto:gorkaleguina@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
@@ -464,9 +468,10 @@
     </main>
 
     <footer class="portfolio-footer">
-        <p>Gorka Leguina &middot; Mediakit 2025/2026</p>
+        <p data-i18n="footer">Gorka Leguina &middot; Mediakit 2025/2026</p>
     </footer>
 
+    <script src="js/i18n.js"></script>
     <script>
     (function() {
         if (window.location.hash) {

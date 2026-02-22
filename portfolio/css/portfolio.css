@@ -141,6 +141,44 @@ h1, h2, h3 {
     background-color: #333;
 }
 
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 22px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.15s, border-color 0.15s;
+    overflow: hidden;
+}
+
+.lang-btn svg {
+    width: 20px;
+    height: 14px;
+    display: block;
+}
+
+.lang-btn.active {
+    opacity: 1;
+    border-color: #999;
+}
+
+.lang-btn:hover {
+    opacity: 0.8;
+}
+
 /* Badge row */
 .topbar-badge-row {
     text-align: center;
@@ -845,6 +883,16 @@ h1, h2, h3 {
     .topbar-cta {
         font-size: 0.72rem;
         padding: 6px 14px;
+    }
+
+    .lang-btn {
+        width: 26px;
+        height: 18px;
+    }
+
+    .lang-btn svg {
+        width: 18px;
+        height: 12px;
     }
 
     .card-section {

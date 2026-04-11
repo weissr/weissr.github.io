@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 300;
+  background-color: #b1b1b1;
+  color: #222;
+  line-height: 1.45;
+  overflow-x: hidden;
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+}
+
+.amazon-top-bar {
+  background: #2d2d2d;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.amazon-home-link {
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.amazon-home-link:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.amazon-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 18px 48px;
+}
+
+.amazon-hero {
+  text-align: center;
+  padding: 28px 16px 20px;
+  background: linear-gradient(165deg, #f8f9fa 0%, #e9ecef 55%, #dee2e6 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  margin-bottom: 16px;
+}
+
+.amazon-hero h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 12px;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.amazon-hero .amazon-hero__lead {
+  margin: 0 auto;
+  max-width: 36em;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.amazon-hero .amazon-hero__lead strong {
+  font-weight: 600;
+}
+
+.amazon-toolbar {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px 16px 20px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 14px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.08);
+}
+
+.amazon-search {
+  margin-bottom: 16px;
+}
+
+.amazon-search label {
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.amazon-search-input-wrap {
+  position: relative;
+  max-width: 420px;
+}
+
+.amazon-search-input-wrap svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  fill: #666;
+  pointer-events: none;
+}
+
+.amazon-search input[type='search'] {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 12px 10px 40px;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.amazon-search input[type='search']:focus {
+  outline: 2px solid #ff9900;
+  outline-offset: 1px;
+  border-color: #ff9900;
+}
+
+.amazon-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.amazon-filters--sub {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e9ecef;
+}
+
+.amazon-filters__label {
+  width: 100%;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.amazon-chip {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 0.85rem;
+  padding: 10px 16px;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(35, 47, 62, 0.15);
+}
+
+.amazon-chip:hover {
+  border-color: #adb5bd;
+  background: #f8f9fa;
+}
+
+.amazon-chip[aria-pressed='true'] {
+  background: #232f3e;
+  color: #fff;
+  border-color: #232f3e;
+  box-shadow: 0 2px 8px rgba(35, 47, 62, 0.35);
+}
+
+.amazon-results {
+  font-size: 0.88rem;
+  color: #333;
+  margin: 0 0 14px;
+  min-height: 1.4em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 22px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.16);
+}
+
+.product-card--hidden {
+  display: none !important;
+}
+
+.product-card__media {
+  position: relative;
+  background: #e9ecef;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+/* Fallback sin aspect-ratio (navegadores antiguos) */
+@supports not (aspect-ratio: 4 / 3) {
+  .product-card__media {
+    height: 0;
+    padding-bottom: 75%;
+  }
+
+  .product-card__media img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.product-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card__body {
+  padding: 16px 16px 18px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.product-card__badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #495057;
+  background: #e9ecef;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.product-card__title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.35rem;
+  font-weight: normal;
+  margin: 0 0 8px;
+  line-height: 1.2;
+  color: #111;
+}
+
+.product-card__desc {
+  font-size: 0.88rem;
+  color: #555;
+  margin: 0 0 14px;
+  flex: 1;
+}
+
+.product-card__cta {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 16px;
+  min-height: 44px;
+  line-height: 1.25;
+  background: #ff9900;
+  color: #111;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s ease, filter 0.2s ease;
+  align-self: stretch;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.product-card__cta:hover {
+  background: #fa8900;
+  filter: brightness(1.02);
+}
+
+.amazon-empty {
+  text-align: center;
+  padding: 32px 16px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 12px;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.amazon-empty[hidden] {
+  display: none !important;
+}
+
+.amazon-footer {
+  text-align: center;
+  padding: 28px 16px 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+  color: #333;
+}
+
+.amazon-footer a {
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .amazon-search input[type='search'] {
+    font-size: 16px;
+  }
+
+  .amazon-page {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .amazon-search-input-wrap {
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .amazon-hero h1 {
+    font-size: 1.65rem;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-card,
+  .product-card__cta,
+  .amazon-chip,
+  .amazon-home-link {
+    transition: none;
+  }
+
+  .product-card:hover {
+    transform: none;
+  }
+}

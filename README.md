@@ -1,21 +1,20 @@
-# My Personal Webpage
+# Gorka Leguina — personal website
 
-:earth_africa: This is my personal webpage. It has been created using [GitHub Pages](https://pages.github.com/).
+This repository is the source for **[gorkaleguina.com](https://www.gorkaleguina.com)**, a static personal site **published with [GitHub Pages](https://pages.github.com/)**. Most of the content is in Spanish. It collects **social profiles**, **general outbound links**, and material related to **skiing, freeride, and trail running**.
 
-## Just a few words
+## What’s in here
 
-Creating a site using [GitHub Pages](https://pages.github.com/) is quite simple but has some limitations: you will only be able to serve static pages with Javascript functionality.
+- **Landing page** (`index.html`) — profile header, link list, social networks, and footer with a copyright / all-rights-reserved notice.
+- **Other static pages** in the repo use plain **HTML**, **CSS**, and **client-side JavaScript** only: for example, **search** and **filter** controls, **cards** with short descriptions, and **buttons** that open external destinations. There is **no backend** and no server-side processing.
 
-If that fits you, you can can consider this two options :
+There is no server-side code: plain HTML, CSS, and a little JavaScript where needed.
 
-:point_right: Using [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll): **GitHub Pages** are powered by **Jekyll** making a lot easier to publish new posts to your blog.
+## Technical notes
 
-![GitHub Pages powered by Jekyll](img/readme_jekyll.png)
+GitHub Pages can run [Jekyll](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-and-jekyll) by default on `username.github.io` repos. This project is **fully custom static files**, so the repo includes a **`.nojekyll`** file at the root so GitHub serves the files as-is and does not try to process them with Jekyll.
 
+If you fork or clone this pattern: keep `.nojekyll` if you are not using Jekyll; otherwise you may see build or path issues.
 
-:point_right: Making a fully customization of your site. If you do so, I recommend you to deactivate Jekyll in order to avoid any troubles. To do this, just create a .nojekyll file on the root directory (just check this project root directory).
+## Copyright
 
-    $ .nojekyll
-
-![nojekyll file](img/readme_repo.png)
-
+© Gorka Leguina. **All rights reserved.** This repository and the published website contain personal content. **No license is granted** to copy, redistribute, republish, adapt, or otherwise reuse text, layout, images, or other materials without **prior written permission**. (See the footer on the live site for the Spanish notice.)

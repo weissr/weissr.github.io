@@ -72,6 +72,15 @@ footer{
 .link:hover{
   opacity: 0.9;
 }
+.link--secondary{
+  height: 58px;
+  box-shadow: 1px 1px 12px 3px #00000099;
+  font-size: 0.88rem;
+}
+.title--secondary{
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
 .platform{
   color: black;
   text-decoration: none;

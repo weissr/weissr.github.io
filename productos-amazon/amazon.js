@@ -8,6 +8,7 @@
     fuerza: 'Fuerza',
     guantes: 'Guantes',
     ropa: 'Ropa',
+    reparar: 'Reparar',
   };
 
   var state = {

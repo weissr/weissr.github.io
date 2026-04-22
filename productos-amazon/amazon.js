@@ -7,6 +7,7 @@
     calzado: 'Calzado',
     fuerza: 'Fuerza',
     guantes: 'Guantes',
+    mantenimiento: 'Mantenimiento',
     ropa: 'Ropa',
     reparar: 'Reparar',
   };

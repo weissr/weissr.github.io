@@ -60,13 +60,23 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     gap: 20px;
+    min-width: 0;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-left: auto;
 }
 
 .topbar-brand {
     display: flex;
     align-items: center;
     gap: 10px;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .topbar-avatar {
@@ -79,6 +89,7 @@ h1, h2, h3 {
 .topbar-brand-text {
     display: flex;
     flex-direction: column;
+    min-width: 0;
 }
 
 .topbar-name {
@@ -1141,7 +1152,34 @@ h1, h2, h3 {
         display: flex;
     }
 
+    .topbar-role {
+        display: none;
+    }
+
     .topbar-inner {
         justify-content: space-between;
+        gap: 6px;
+        padding: 8px 10px;
+    }
+
+    .topbar-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .topbar-name {
+        font-size: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .topbar-actions {
+        gap: 6px;
+    }
+
+    .topbar-cta {
+        font-size: 0.72rem;
+        padding: 7px 12px;
     }
 }

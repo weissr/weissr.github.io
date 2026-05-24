@@ -456,6 +456,116 @@ h1, h2, h3 {
     display: block;
 }
 
+.stats-grid--single {
+    justify-content: center;
+}
+
+.stats-grid--single .stats-grid-item {
+    flex: 0 1 70%;
+    max-width: 520px;
+}
+
+.ig-kpi-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.ig-kpi-card {
+    flex: 1 1 calc(33.333% - 12px);
+    min-width: 140px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 18px 14px;
+    text-align: center;
+}
+
+.ig-kpi-value {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.ig-kpi-label {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.35;
+}
+
+.ig-kpi-note {
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.45);
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.ig-block {
+    margin-bottom: 48px;
+}
+
+.ig-block:last-of-type {
+    margin-bottom: 32px;
+}
+
+.ig-block-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.35rem;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.ig-block-lead {
+    max-width: 640px;
+    margin: 0 auto 16px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    line-height: 1.65;
+}
+
+.ig-block-period {
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.45);
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.ig-block--authentic {
+    padding: 28px 24px;
+    border-radius: 14px;
+    border: 1px solid rgba(225, 48, 108, 0.35);
+    background-color: rgba(225, 48, 108, 0.06);
+}
+
+.ig-value-prop {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    line-height: 1.75;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
 /* ========================================
    SECTION 6 - Portfolio de Contenido
    ======================================== */
@@ -540,6 +650,58 @@ h1, h2, h3 {
     color: #555;
     margin-bottom: 8px;
     line-height: 1.5;
+}
+
+.subsection-title--trail svg {
+    fill: #2d8a4e;
+}
+
+.content-brand-callout {
+    max-width: 720px;
+    margin: 0 auto 32px;
+    padding: 18px 20px;
+    background-color: #f7f7f8;
+    border-radius: 10px;
+    border-left: 4px solid #111;
+    font-weight: 300;
+    font-size: 0.92rem;
+    color: #444;
+    line-height: 1.65;
+    text-align: center;
+}
+
+.top-card--link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.top-card--link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.top-card-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    color: #E1306C;
+}
+
+.top-card--link:hover .top-card-link {
+    text-decoration: underline;
+}
+
+.top-card-link--yt {
+    color: #FF0000;
+}
+
+.top-card--link:hover .top-card-link--yt {
+    text-decoration: underline;
 }
 
 .top-card-why {
@@ -915,6 +1077,19 @@ h1, h2, h3 {
 
     .stats-grid-item {
         flex: 1 1 100%;
+    }
+
+    .stats-grid--single .stats-grid-item {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+
+    .ig-kpi-card {
+        flex: 1 1 calc(50% - 12px);
+    }
+
+    .ig-block--authentic {
+        padding: 20px 16px;
     }
 
     .top-card {

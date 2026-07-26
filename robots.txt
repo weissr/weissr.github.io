@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /_testing/
 Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
 Disallow: /productos-amazon/data/
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

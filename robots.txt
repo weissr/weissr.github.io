@@ -1,4 +1,80 @@
+# https://www.gorkaleguina.com
+# Public indexable URL: / only.
+# /portfolio/ is URL-only: Googlebot and Bingbot may crawl it to honor noindex.
+# /amazon/ and /productos-amazon/ are retired (client-side redirect; no server 301).
+
+User-agent: Googlebot
+Allow: /
+Disallow: /_testing/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /_testing/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /_testing/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
+
 User-agent: *
 Disallow: /_testing/
+Disallow: /portfolio/
+Disallow: /productos-amazon/
+Disallow: /amazon/
 Disallow: /productos-amazon/data/
+
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

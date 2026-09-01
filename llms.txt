@@ -1,0 +1,31 @@
+# Gorka Leguina
+
+> Sitio personal en español de Gorka Leguina, creador de contenido de esquí, freeride y trail running.
+
+La URL canónica es https://www.gorkaleguina.com/. Esta web es un índice de perfiles y enlaces (formato link-in-bio). El contenido audiovisual y los tutoriales están en YouTube, Instagram y el resto de redes. No hay blog ni artículos en este dominio.
+
+Este dominio no publica un mediakit indexable. Las rutas /amazon/ y /productos-amazon/ están retiradas; los productos recomendados están en la tienda de Amazon.
+
+## Páginas
+
+- [Gorka Leguina](https://www.gorkaleguina.com/): Página principal con enlaces a redes, descuentos Siroko y SkiGrip, y productos recomendados.
+
+## Perfiles
+
+- [YouTube](https://youtube.com/c/gorkaleguina): Vídeos de esquí y trail running, incluidos tutoriales de material y técnica.
+- [Instagram](https://instagram.com/gorkaleguina): Reels y carruseles de esquí, freeride y trail running.
+- [TikTok](https://www.tiktok.com/@leguinagorka): Contenido corto de montaña.
+- [Threads](https://www.threads.net/@gorkaleguina): Actualizaciones y conversación.
+- [Vimeo](https://vimeo.com/gorkaleguina): Vídeo.
+- [Facebook](https://www.facebook.com/gorka.leguina): Perfil público.
+- [Strava](https://www.strava.com/athletes/40436444): Actividad de trail running y entrenamiento.
+- [GitHub](https://github.com/weissr): Código y este sitio (weissr.github.io).
+- [LinkedIn](https://www.linkedin.com/in/gorkaleguina): Perfil profesional.
+
+## Optional
+
+- [Tienda Amazon](https://www.amazon.es/shop/gorkaleguin0b): Productos recomendados (afiliado).
+- [Descuento Siroko](https://srko.co/gorkaleguina): Código de descuento de gafas y ropa.
+- [Descuento SkiGrip](https://skigrips.com/GORKA15): Código de descuento.
+- [Sitemap](https://www.gorkaleguina.com/sitemap.xml): Única URL indexable: la portada.
+- [robots.txt](https://www.gorkaleguina.com/robots.txt): Permisos de rastreo.

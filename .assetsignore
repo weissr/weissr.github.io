@@ -1,0 +1,16 @@
+.git
+.gitignore
+.github
+.cursor
+.nojekyll
+CNAME
+README.md
+wrangler.jsonc
+package.json
+package-lock.json
+node_modules
+.wrangler
+.assetsignore
+.DS_Store
+index.sublime-workspace
+_testing

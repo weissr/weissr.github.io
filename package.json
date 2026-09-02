@@ -1,0 +1,12 @@
+{
+  "name": "gorkaleguina",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "deploy:preview": "wrangler versions upload",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.128.0"
+  }
+}

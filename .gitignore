@@ -1,3 +1,5 @@
 
 index.sublime-workspace
 /.cursor
+node_modules
+.wrangler

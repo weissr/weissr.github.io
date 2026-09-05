@@ -378,6 +378,73 @@ button {
     transform: translateX(4px);
 }
 
+.row--toggle {
+    width: 100%;
+    text-align: left;
+}
+
+.row--toggle .icon-svg--plus {
+    fill: none;
+    stroke: var(--slate);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+}
+
+.row--toggle .icon-plus-v {
+    transform-origin: 8px 8px;
+    transition: opacity 160ms ease, transform 160ms var(--ease);
+}
+
+.row--toggle[aria-expanded="true"] .icon-plus-v {
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.row-chevron {
+    width: 14px;
+    height: 14px;
+    margin-left: auto;
+    flex-shrink: 0;
+    stroke: var(--slate);
+    stroke-width: 1.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 200ms var(--ease);
+}
+
+.row--toggle[aria-expanded="true"] .row-chevron {
+    transform: rotate(180deg);
+}
+
+.row-benefit {
+    color: var(--slate);
+    font-weight: 300;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+}
+
+.icon-logo {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    display: block;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.links--extra {
+    border-top: 0;
+}
+
+.row--nested {
+    padding-left: 28px;
+}
+
+.row--nested .row-label {
+    font-weight: 400;
+}
+
 /* ========================================
    Footer
    ======================================== */
@@ -427,6 +494,7 @@ button {
 .block--discounts li:nth-child(1) .row { --d: 5; }
 .block--discounts li:nth-child(2) .row { --d: 6; }
 .block--discounts li:nth-child(3) .row { --d: 7; }
+.block--discounts li:nth-child(4) > .row { --d: 8; }
 
 .ridge--mini { --d: 8; }
 
@@ -486,6 +554,8 @@ button {
 
     .row:hover .row-arrow,
     .row:focus-visible .row-arrow,
+    .row-chevron,
+    .row--toggle .icon-plus-v,
     .theme-toggle {
         transform: none;
         transition: none;

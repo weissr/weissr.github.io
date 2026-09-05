@@ -1,13 +1,15 @@
 # https://www.gorkaleguina.com
 # Public indexable URL: / only.
 # /portfolio/ is URL-only: Googlebot and Bingbot may crawl it to honor noindex.
-# /siroko, /skigrip, /amazon and /productos-amazon are server-side 302 affiliate redirects.
+# /siroko, /skigrip, /amazon, /productos-amazon, /higgsfield and /revolut are server-side 302 affiliate redirects.
 
 User-agent: Googlebot
 Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -16,6 +18,8 @@ Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -25,6 +29,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -34,6 +40,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -42,6 +50,8 @@ Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -51,6 +61,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -60,6 +72,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -69,6 +83,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -78,6 +94,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -87,6 +105,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 
@@ -95,6 +115,8 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /higgsfield
+Disallow: /revolut
 Disallow: /amazon
 Disallow: /productos-amazon
 Disallow: /productos-amazon/data/

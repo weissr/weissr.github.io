@@ -4,8 +4,21 @@
 
     document.querySelectorAll("[data-count]").forEach((el) => {
         const block = el.closest(".block");
-        const n = block ? block.querySelectorAll(".row").length : 0;
+        const n = block ? block.querySelectorAll(":scope > .links > li > .row").length : 0;
         el.textContent = pad(n);
+    });
+
+    document.querySelectorAll("[data-more-discounts]").forEach((wrap) => {
+        const toggle = wrap.querySelector("[data-more-toggle]");
+        const panel = wrap.querySelector("[data-more-panel]");
+        if (!toggle || !panel) {
+            return;
+        }
+        toggle.addEventListener("click", () => {
+            const open = toggle.getAttribute("aria-expanded") === "true";
+            toggle.setAttribute("aria-expanded", String(!open));
+            panel.hidden = open;
+        });
     });
 
     const yearEl = document.querySelector("[data-year]");

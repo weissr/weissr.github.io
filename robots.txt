@@ -1,7 +1,8 @@
 # https://www.gorkaleguina.com
 # Public indexable URL: / only.
 # /portfolio/ is URL-only: Googlebot and Bingbot may crawl it to honor noindex.
-# /siroko, /skigrip, /amazon, /productos-amazon, /higgsfield and /revolut are server-side 302 affiliate redirects.
+# /siroko, /skigrip, /higgsfield and /revolut are server-side 302 affiliate redirects.
+# /amazon and /productos-amazon are permanent 301 to the Amazon shop; crawlers may follow them.
 
 User-agent: Googlebot
 Allow: /
@@ -10,8 +11,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: Bingbot
 Allow: /
@@ -20,8 +19,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: GPTBot
 Allow: /
@@ -31,8 +28,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: OAI-SearchBot
 Allow: /
@@ -42,8 +37,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: ChatGPT-User
 Allow: /
@@ -52,8 +45,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: ClaudeBot
 Allow: /
@@ -63,8 +54,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: anthropic-ai
 Allow: /
@@ -74,8 +63,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: PerplexityBot
 Allow: /
@@ -85,8 +72,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: Google-Extended
 Allow: /
@@ -96,8 +81,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: Applebot-Extended
 Allow: /
@@ -107,8 +90,6 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
 
 User-agent: *
 Disallow: /_testing/
@@ -117,8 +98,5 @@ Disallow: /siroko
 Disallow: /skigrip
 Disallow: /higgsfield
 Disallow: /revolut
-Disallow: /amazon
-Disallow: /productos-amazon
-Disallow: /productos-amazon/data/
 
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

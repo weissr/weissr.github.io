@@ -1,19 +1,20 @@
 # Gorka Leguina — personal website
 
-This repository is the source for **[gorkaleguina.com](https://www.gorkaleguina.com)**, a static personal site **published with [GitHub Pages](https://pages.github.com/)**. Most of the content is in Spanish. It collects **social profiles**, **general outbound links**, and material related to **skiing, freeride, and trail running**.
+This repository is the source for **[gorkaleguina.com](https://www.gorkaleguina.com)**, a static personal site published with [Cloudflare Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/). GitHub holds the repository and version history; [Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) deploys `main` on each push. Most of the content is in Spanish. It collects **social profiles**, **general outbound links**, and material related to **skiing, freeride, and trail running**.
 
 ## What’s in here
 
 - **Landing page** (`index.html`) — profile header, link list, social networks, and footer with a copyright / all-rights-reserved notice.
 - **Other static pages** in the repo use plain **HTML**, **CSS**, and **client-side JavaScript** only: for example, **search** and **filter** controls, **cards** with short descriptions, and **buttons** that open external destinations. There is **no backend** and no server-side processing.
+- **`_redirects`** — HTTP redirects for affiliate-friendly URLs (no Worker script).
 
 There is no server-side code: plain HTML, CSS, and a little JavaScript where needed.
 
 ## Technical notes
 
-GitHub Pages can run [Jekyll](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-and-jekyll) by default on `username.github.io` repos. This project is **fully custom static files**, so the repo includes a **`.nojekyll`** file at the root so GitHub serves the files as-is and does not try to process them with Jekyll.
+The project is fully custom static files. `wrangler.jsonc` publishes the repository root as assets. There is no build step; Cloudflare runs `npm run deploy` (Wrangler pinned in `package.json`).
 
-If you fork or clone this pattern: keep `.nojekyll` if you are not using Jekyll; otherwise you may see build or path issues.
+Friendly URLs such as `/siroko` or `/amazon` are declared in `_redirects`. Hostname redirects (apex `gorkaleguina.com` → `www`) are configured in the Cloudflare dashboard, not in this repo.
 
 ## Copyright
 

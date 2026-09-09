@@ -2,8 +2,6 @@
 .gitignore
 .github
 .cursor
-.nojekyll
-CNAME
 README.md
 wrangler.jsonc
 package.json

@@ -508,9 +508,8 @@ button {
 .block--social li:nth-child(6) .row { --d: 16; }
 .block--social li:nth-child(7) .row { --d: 17; }
 .block--social li:nth-child(8) .row { --d: 18; }
-.block--social li:nth-child(9) .row { --d: 19; }
 
-.footer { --d: 20; }
+.footer { --d: 19; }
 
 @keyframes draw-ridge {
     to { stroke-dashoffset: 0; }

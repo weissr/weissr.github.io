@@ -26,5 +26,6 @@ Este dominio no publica un mediakit indexable. Las rutas /amazon/ y /productos-a
 - [Tienda Amazon](https://www.amazon.es/shop/gorkaleguin0b): Productos recomendados (afiliado).
 - [Descuento Siroko](https://srko.co/gorkaleguina): Código de descuento de gafas y ropa.
 - [Descuento SkiGrip](https://skigrips.com/GORKA15): Código de descuento.
+- [Viaje a la nieve](https://viajealanieve.es/semana-de-esqui/?utm_source=Instagram&utm_medium=Influencer&utm_campaign=GorkaLeguina): Semana de esquí.
 - [Sitemap](https://www.gorkaleguina.com/sitemap.xml): Única URL indexable: la portada.
 - [robots.txt](https://www.gorkaleguina.com/robots.txt): Permisos de rastreo.

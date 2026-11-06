@@ -1,7 +1,7 @@
 # https://www.gorkaleguina.com
 # Public indexable URL: / only.
 # /portfolio/ is URL-only: Googlebot and Bingbot may crawl it to honor noindex.
-# /siroko, /skigrip, /retropia, /higgsfield, /revolut and /viaje-a-la-nieve are server-side 302 affiliate redirects.
+# /siroko, /skigrip, /sothing, /retropia, /higgsfield, /revolut, /intvl, /viaje-a-la-nieve and /montaventura are server-side 302 affiliate redirects.
 # /amazon and /productos-amazon are permanent 301 to the Amazon shop; crawlers may follow them.
 
 User-agent: Googlebot
@@ -9,20 +9,26 @@ Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: Bingbot
 Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: GPTBot
 Allow: /
@@ -30,10 +36,13 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: OAI-SearchBot
 Allow: /
@@ -41,20 +50,26 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /_testing/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: ClaudeBot
 Allow: /
@@ -62,10 +77,13 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: anthropic-ai
 Allow: /
@@ -73,10 +91,13 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: PerplexityBot
 Allow: /
@@ -84,10 +105,13 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: Google-Extended
 Allow: /
@@ -95,10 +119,13 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: Applebot-Extended
 Allow: /
@@ -106,19 +133,25 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 User-agent: *
 Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /siroko
 Disallow: /skigrip
+Disallow: /sothing
 Disallow: /retropia
 Disallow: /higgsfield
 Disallow: /revolut
+Disallow: /intvl
 Disallow: /viaje-a-la-nieve
+Disallow: /montaventura
 
 Sitemap: https://www.gorkaleguina.com/sitemap.xml

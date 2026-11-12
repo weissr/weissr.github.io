@@ -28,6 +28,7 @@ Este dominio no publica un mediakit indexable. Las rutas /amazon/ y /productos-a
 - [Descuento SkiGrip](https://skigrips.com/GORKA15): Código de descuento.
 - [Descuento Sothing](https://sothing.com/?ref=GORKALEGUINA): 10% de descuento en secadores de botas y calzado. Código GORKALEGUINA.
 - [INTVL](https://www.intvl.com.au/referral?r=ZXYZ3W): App para competir corriendo o pedaleando. Oferta de bienvenida y acceso al club con el código ZXYZ3W.
+- [Wispr Flow](https://wisprflow.ai/r?GORKA1): Dictado por voz. Un mes de Pro gratis al registrarse con el código GORKA1.
 - [Viaje a la nieve](https://viajealanieve.es/semana-de-esqui/?utm_source=Instagram&utm_medium=Influencer&utm_campaign=GorkaLeguina): Semana de esquí.
 - [Montaventura](https://www.montaventura.com/): Escuela de esquí con pista indoor.
 - [Sitemap](https://www.gorkaleguina.com/sitemap.xml): Única URL indexable: la portada.

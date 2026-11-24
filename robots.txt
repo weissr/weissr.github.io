@@ -1,7 +1,7 @@
 # https://www.gorkaleguina.com
 # Public indexable URL: / only.
 # /portfolio/ is URL-only: Googlebot and Bingbot may crawl it to honor noindex.
-# /holafly, /siroko, /skigrip, /sothing, /retropia, /higgsfield, /revolut, /intvl, /wisprflow, /viaje-a-la-nieve and /montaventura are server-side 302 affiliate redirects.
+# /holafly, /siroko, /hysteresis, /skigrip, /sothing, /retropia, /higgsfield, /revolut, /intvl, /wisprflow, /viaje-a-la-nieve and /montaventura are server-side 302 affiliate redirects.
 # /amazon and /productos-amazon are permanent 301 to the Amazon shop; crawlers may follow them.
 
 User-agent: Googlebot
@@ -9,6 +9,7 @@ Allow: /
 Disallow: /_testing/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -24,6 +25,7 @@ Allow: /
 Disallow: /_testing/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -40,6 +42,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -56,6 +59,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -71,6 +75,7 @@ Allow: /
 Disallow: /_testing/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -87,6 +92,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -103,6 +109,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -119,6 +126,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -135,6 +143,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -151,6 +160,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia
@@ -166,6 +176,7 @@ Disallow: /_testing/
 Disallow: /portfolio/
 Disallow: /holafly
 Disallow: /siroko
+Disallow: /hysteresis
 Disallow: /skigrip
 Disallow: /sothing
 Disallow: /retropia

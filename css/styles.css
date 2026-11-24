@@ -353,6 +353,13 @@ button {
     fill: var(--slate);
 }
 
+/* Wider glyph; negative margin keeps the label aligned with the other rows. */
+.icon-svg--goggles {
+    width: 20px;
+    height: 15px;
+    margin: 0 -2px;
+}
+
 .row-label {
     font-family: var(--font-body);
     font-size: 0.9375rem;

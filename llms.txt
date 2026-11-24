@@ -8,7 +8,7 @@ Este dominio no publica un mediakit indexable. Las rutas /amazon/ y /productos-a
 
 ## Páginas
 
-- [Gorka Leguina](https://www.gorkaleguina.com/): Página principal con enlaces a redes, descuentos Holafly, Siroko, SkiGrip y Sothing, y productos recomendados.
+- [Gorka Leguina](https://www.gorkaleguina.com/): Página principal con enlaces a redes, descuentos Holafly, Siroko, Hysteresis, SkiGrip y Sothing, y productos recomendados.
 
 ## Perfiles
 
@@ -26,6 +26,7 @@ Este dominio no publica un mediakit indexable. Las rutas /amazon/ y /productos-a
 - [Tienda Amazon](https://www.amazon.es/shop/gorkaleguin0b): Productos recomendados (afiliado).
 - [Descuento Holafly](https://holafly.sjv.io/c/8232882/3856277/24764): 5% en eSIM y 10% en planes. Código GORKALEGUINA.
 - [Descuento Siroko](https://srko.co/gorkaleguina): Código de descuento de gafas y ropa.
+- [Descuento Hysteresis](https://www.hysteresisoptics.com/): 10% de descuento en máscaras de esquí. Código GORKA10.
 - [Descuento SkiGrip](https://skigrips.com/GORKA15): Código de descuento.
 - [Descuento Sothing](https://sothing.com/?ref=GORKALEGUINA): 10% de descuento en secadores de botas y calzado. Código GORKALEGUINA.
 - [INTVL](https://www.intvl.com.au/referral?r=ZXYZ3W): App para competir corriendo o pedaleando. Oferta de bienvenida y acceso al club con el código ZXYZ3W.
